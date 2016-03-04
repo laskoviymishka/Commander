@@ -1,0 +1,33 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Commander.Example Console Application",
+  "authors": [ "Andrei_Tserakhau" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+	"dependencies": {
+		"Commander": "1.0.0-*"
+	},
+
+  "commands": {
+    "Commander.Example": "Commander.Example"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-*",
+        "System.Collections": "4.0.11-*",
+        "System.Console": "4.0.0-*",
+        "System.Linq": "4.0.1-*",
+        "System.Threading": "4.0.11-*"
+      }
+    }
+  }
+}

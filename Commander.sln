@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FEF768A7-F92C-4822-9561-76C2919897C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F3E987E-C9E7-4FB2-A8C2-BA0598689E40}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Commander", "src\Commander\Commander.xproj", "{2291365A-AF24-4D6D-B8D7-853F6F6F88B7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Commander.Example", "src\Commander.Example\Commander.Example.xproj", "{C5F3827D-9E68-4813-A0C1-617EA0DA15DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2291365A-AF24-4D6D-B8D7-853F6F6F88B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2291365A-AF24-4D6D-B8D7-853F6F6F88B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2291365A-AF24-4D6D-B8D7-853F6F6F88B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2291365A-AF24-4D6D-B8D7-853F6F6F88B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F3827D-9E68-4813-A0C1-617EA0DA15DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F3827D-9E68-4813-A0C1-617EA0DA15DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F3827D-9E68-4813-A0C1-617EA0DA15DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F3827D-9E68-4813-A0C1-617EA0DA15DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2291365A-AF24-4D6D-B8D7-853F6F6F88B7} = {FEF768A7-F92C-4822-9561-76C2919897C1}
+		{C5F3827D-9E68-4813-A0C1-617EA0DA15DD} = {FEF768A7-F92C-4822-9561-76C2919897C1}
+	EndGlobalSection
+EndGlobal
